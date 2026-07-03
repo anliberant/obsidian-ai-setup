@@ -11,7 +11,6 @@ understand.
 
 Built for **Claude Code**, but compatible with any AI agent that supports Markdown-based context.
 
----
 
 ## Features
 
@@ -24,10 +23,6 @@ Built for **Claude Code**, but compatible with any AI agent that supports Markdo
 - 📝 Produces personalized context instead of placeholder templates
 - 🧩 Creates project workspaces from your existing information
 - 🔒 Markdown-first, local-first, vendor-independent
-
-```
-
----
 
 ## Why?
 
@@ -46,8 +41,6 @@ Obsidian AI Setup solves that problem once.
 It builds a structured knowledge base that grows with you, allowing AI to work from long-term
 context instead of starting over every session.
 
----
-
 ## How It Works
 
 ### 1. Bootstrap
@@ -55,12 +48,14 @@ context instead of starting over every session.
 Creates the complete vault structure.
 
 ```
-
-.claude/ Context/ Projects/ Daily/ Resources/ Skills/ Intelligence/
-
+.claude/
+Context/
+Projects/
+Daily/
+Resources/
+Skills/
+Intelligence/
 ```
-
----
 
 ### 2. Guided Onboarding
 
@@ -85,8 +80,6 @@ You can answer using:
 - URLs
 - existing Markdown notes
 
----
-
 ### 3. Knowledge Generation
 
 The assistant analyzes everything you've shared and generates a personalized knowledge base.
@@ -99,8 +92,6 @@ No "TODO" templates.
 
 Just usable documentation.
 
----
-
 ## Compatibility
 
 Designed for:
@@ -112,8 +103,6 @@ Designed for:
 - Markdown-first AI workflows
 
 Because everything is plain Markdown, the generated vault can be used with virtually any modern LLM.
-
----
 
 ## Philosophy
 
@@ -128,10 +117,9 @@ knowledge base.
 
 Think of it as installing an operating system for your second brain.
 
----
-
 ## Roadmap
 
+```
 - [ ] Multi-language onboarding
 - [ ] Additional onboarding profiles
 - [ ] Import existing vaults
